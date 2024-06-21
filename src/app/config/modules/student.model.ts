@@ -8,7 +8,7 @@ import {
 import { Schema, model } from 'mongoose';
 import validator from 'validator';
 import bcrypt from 'bcrypt';
-import config from '../config';
+import config from '..';
 
 const userNameSchema = new Schema<TUserName>({
   firstName: {
